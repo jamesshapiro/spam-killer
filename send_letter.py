@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.environ.get('POSTGRID_TEST_API_KEY')
-# api_key = os.environ.get('POSTGRID_LIVE_API_KEY')
+# api_key = os.environ.get('POSTGRID_TEST_API_KEY')
+api_key = os.environ.get('POSTGRID_LIVE_API_KEY')
 postgrid.pm_key = api_key
 my_first_name = os.environ.get('MY_FIRST_NAME')
 my_last_name = os.environ.get('MY_LAST_NAME')
